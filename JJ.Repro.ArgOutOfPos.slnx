@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
-    <File Path="LICENSE,TXT" />
+    <File Path="LICENSE.TXT" />
   </Folder>
   <Project Path="JJ.Repro.ArgOutOfPos\JJ.Repro.ArgOutOfPos.csproj" />
 </Solution>
