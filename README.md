@@ -16,5 +16,4 @@ Visual Studio Community 2026 Version 18.3.2
 JetBrains ReSharper 2025.3.3
 Build 253.0.20260216.123800 built on 2026-02-16
 ReSharper 2025.3.20260219.74449
-
 ```
