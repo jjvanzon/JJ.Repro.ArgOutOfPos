@@ -20,9 +20,9 @@ IsTrue ("B \t".In(              false, caseMatters: false, [ "A", "B", "C" ] ));
 
 // 🐛 The trouble maker
 
-// ✔️ Compiler/runtime => 2nd overload (WORKS)
 // ✔️ Visual Studio 2026 (ReSharper disabled) => 2nd overload (WORKS)
 // ❌ ReSharper enabled => 1st overload (ERROR squiggly)
+// ✔️ Compiler/runtime => 2nd overload (WORKS)
 IsTrue ("B \t".In(spaceMatters: false, caseMatters: false, [ "A", "B", "C" ] ));
 
 WriteLine("Assertions Successful");
