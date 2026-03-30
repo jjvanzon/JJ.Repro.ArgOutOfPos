@@ -1,14 +1,13 @@
 JJ.Repro.ArgOutOfPos
 ====================
 
-Minimal repro project demonstrating an overload resolution / argument-position issue observed when ReSharper is enabled in Visual Studio.
-
 ISSUE IS RESOLVED IN UPDATE 2026.1 🎉 Whoohoo!
+
+Minimal repro project demonstrating an overload resolution / argument-position issue observed when ReSharper is enabled in Visual Studio.
 
 What it shows:
 - A tiny C# program that defines two `In` extension overloads where the boolean parameter names are swapped between overloads.
 - Calling the method with named arguments in different orders behaves correctly for the compiler and at runtime, but ReSharper (in one configuration) reports a squiggly on one call.
-
 
 ```
 C# language version: 14.0
